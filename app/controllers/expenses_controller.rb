@@ -1,7 +1,7 @@
 class ExpensesController < ApplicationController
     def index
         @expenses = Expense.all
-        render json: @expenses
+        render json: @expenses, include: [:user]
     end
 
     def create
