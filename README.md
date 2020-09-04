@@ -15,4 +15,4 @@ To access the full README and the front-end repo, please [click here](https://gi
 2. Run ~ bundle
 3. Run ~ rails db:{migrate,seed}
 4. Run ~ rails s to start your rails server.
-5. Refer to the front-end README for the rest of your setup!
+5. Refer to the [front-end README](https://github.com/NyaradzoUBere/Piggy-WebApp-Frontend) for the rest of your setup!
