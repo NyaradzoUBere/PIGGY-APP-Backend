@@ -1,5 +1,6 @@
 class ExpensesController < ApplicationController
-    before_action :authenticate, only: [:index, :create]
+    # before_action :authenticate, only: [:index, :create]
+    # before_action :authenticate, only: [:create]
     def index
         @expenses = Expense.all
         render json: @expenses, include: [:user]
